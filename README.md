@@ -12,6 +12,7 @@ ConReg
     ├── src
     ├── result \\ Create and import according to the following command
     ├── prep_esastic.py
+    ├── rnn_hallucination_model_0.pth
     ├── train.sh
 ```
 
