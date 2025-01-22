@@ -5,12 +5,12 @@ You should organize them in the following format.
 ```
 ConReg
     ├── Sgpt_file  
-    ├── data
+    ├── data  \\  Create and import according to the following command
     ├── paraphrase-MiniLM-L6-v2   \\ SBERT model
     ├── SGPT   \\ SGPT model
     ├── config
     ├── src
-    ├── result
+    ├── result \\ Create and import according to the following command
     ├── prep_esastic.py
     ├── train.sh
 ```
