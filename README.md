@@ -113,5 +113,5 @@ bash train.sh
 
 
 ```bash
-python ./src/evaluate1.py --dir path_to_folder(result/2wikimultihopqa_llama2_7b/[name])
+python ./src/evaluate1.py --dir path_to_folder(result/[result path and name]])
 ```
