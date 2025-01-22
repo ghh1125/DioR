@@ -24,6 +24,13 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
+### Download LLaMA2-7B
+
+```
+https://huggingface.co/meta-llama/Llama-2-7b
+```
+
+
 ### Download SBERT,SGPT
 
 ```
