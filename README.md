@@ -65,7 +65,7 @@ python prep_elastic.py --data_path data/dpr/psgs_w100.tsv --index_name wiki  # b
 ```
 
 
-### Build SGPT index
+### Build SGPT index (in file ./SGPT/encode_result/)
 
 ```
 python ./Sgpt_file/sgpt_file.py
