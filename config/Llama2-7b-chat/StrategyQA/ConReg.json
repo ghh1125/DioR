@@ -1,0 +1,23 @@
+{
+    "model_name_or_path": "/home/disk2/ghh/llama",
+    "method": "ConReg",
+    "dataset": "strategyqa",
+    "data_path": "./data/strategyqa",
+    "fewshot": 6,
+    "sample": 1000,
+    "shuffle": false,
+    "generate_max_length": 100,
+    "query_formulation": "real_words",
+    "retrieve_keep_top_k": 35,
+    "output_dir": "./result/llama2_7b_chat_strategyqa",
+    "retriever": "SBERT",
+    "es_index_name": "wiki",
+    "retrieve_topk": 3,
+    "hallucination_threshold": 0.75,
+    "check_real_words": true,
+    "use_counter": true,
+    "sgpt_model_name_or_path":"./SGPT",
+    "sbert_model_name_or_path":"./paraphrase-MiniLM-L6-v2",
+    "sgpt_encode_file_path": "./SGPT/encode_result",
+    "passage_file":"./data/dpr/psgs_w100_fixed.tsv"
+}

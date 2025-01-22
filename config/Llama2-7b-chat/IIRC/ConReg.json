@@ -1,0 +1,23 @@
+{
+    "model_name_or_path": "/home/disk2/ghh/llama",
+    "method": "ConReg",
+    "dataset": "iirc",
+    "data_path": "./data/iirc",
+    "fewshot": 8,
+    "sample": 1000,
+    "shuffle": false,
+    "generate_max_length": 256,
+    "query_formulation": "real_words",
+    "retrieve_keep_top_k": 35,
+    "output_dir": "./result/llama2_7b_chat_iirc",
+    "retriever": "SBERT",
+    "es_index_name": "wiki",
+    "retrieve_topk": 3,
+    "hallucination_threshold": 1.4,
+    "check_real_words": true,
+    "use_counter": true,
+    "sgpt_model_name_or_path":"./SGPT",
+    "sbert_model_name_or_path":"./paraphrase-MiniLM-L6-v2",
+    "sgpt_encode_file_path": "./SGPT/encode_result",
+    "passage_file":"./data/dpr/psgs_w100_fixed.tsv"
+}
