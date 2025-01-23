@@ -80,7 +80,7 @@ def main():
         model = TokenRAG(args)
     elif args.method == "entity":
         model = EntityRAG(args)
-    elif args.method == "attn_prob" or args.method == "ConReg":
+    elif args.method == "attn_prob" or args.method == "ConRek":
         model = AttnWeightRAG(args)
     else:
         raise NotImplementedError
