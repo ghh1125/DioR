@@ -63,7 +63,7 @@ nohup bin/elasticsearch &  # run Elasticsearch in background
 cd ../..
 python prep_elastic.py --data_path data/dpr/psgs_w100.tsv --index_name wiki  # build index
 ```
-
+There is an issue with psgsw_100.tsv (empty data exists), please delete it and save it as psgsw_100_fixed.tsv
 
 ### Build SGPT index (in file ./SGPT/encode_result/)
 
