@@ -1,6 +1,6 @@
 {
     "model_name_or_path": "/home/disk2/ghh/llama",
-    "method": "ConReg",
+    "method": "ConRek",
     "dataset": "2wikimultihopqa",
     "data_path": "./2WikiMultihopQA",
     "fewshot": 6,
