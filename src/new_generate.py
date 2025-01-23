@@ -819,7 +819,7 @@ class AttnWeightRAG(BasicRAG):
                 beforeHullucinated = self.generator.generate_attn_before(prompt,
                     self.generate_max_length,
                     # self.attention_solver,
-                    use_entropy=self.method == "ConReg",
+                    use_entropy=self.method == "ConRek",
                     use_logprob=self.method == "attn_prob"
                 )
             if beforeHullucinated == 0 and self.i == 0:
@@ -831,10 +831,10 @@ class AttnWeightRAG(BasicRAG):
                 #     prompt,
                 #     self.generate_max_length,
                 #     # self.attention_solver,
-                #     use_entropy=self.method == "ConReg",
+                #     use_entropy=self.method == "ConRek",
                 #     use_logprob=self.method == "attn_prob"
                 # )
-                # weight = entropies if self.method == "ConReg" else [-v for v in logprobs]
+                # weight = entropies if self.method == "ConRek" else [-v for v in logprobs]
                 #
                 # if self.use_counter == True:
                 #     self.counter.add_generate(new_text, self.generator.tokenizer)
@@ -923,10 +923,10 @@ class AttnWeightRAG(BasicRAG):
                     prompt,
                     self.generate_max_length,
                     # self.attention_solver,
-                    use_entropy=self.method == "ConReg",
+                    use_entropy=self.method == "ConRek",
                     use_logprob=self.method == "attn_prob"
                 )
-                weight = entropies if self.method == "ConReg" else [-v for v in logprobs]
+                weight = entropies if self.method == "ConRek" else [-v for v in logprobs]
 
                 if self.use_counter == True:
                     self.counter.add_generate(new_text, self.generator.tokenizer)
@@ -1128,10 +1128,10 @@ class AttnWeightRAG(BasicRAG):
         #         prompt,
         #         self.generate_max_length,
         #         # self.attention_solver,
-        #         use_entropy=self.method == "ConReg",
+        #         use_entropy=self.method == "ConRek",
         #         use_logprob=self.method == "attn_prob"
         #     )
-        #     weight = entropies if self.method == "ConReg" else [-v for v in logprobs]
+        #     weight = entropies if self.method == "ConRek" else [-v for v in logprobs]
         #
         #     if self.use_counter == True:
         #         self.counter.add_generate(new_text, self.generator.tokenizer)
