@@ -1,6 +1,6 @@
 {
     "model_name_or_path": "/home/disk2/ghh/llama",
-    "method": "ConRek",
+    "method": "DioR",
     "dataset": "strategyqa",
     "data_path": "./data/strategyqa",
     "fewshot": 6,
