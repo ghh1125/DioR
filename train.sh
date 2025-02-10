@@ -21,7 +21,7 @@ retrievers=("SGPT" "BM25" "SBERT")
 for subdir in "$base_dir"/*/; do
     if [ -d "$subdir" ]; then
         echo "Checking directory: $subdir"
-        config_path="$subdir/ConReg.json"
+        config_path="$subdir/DioR.json"
 
         if [ -f "$config_path" ]; then
             echo "Found config file: $config_path"
@@ -63,7 +63,7 @@ EOF
                 fi
             done
         else
-            echo "No ConReg.json found in $subdir"
+            echo "No DioR.json found in $subdir"
         fi
     else
         echo "Skipping non-directory entry: $subdir"
