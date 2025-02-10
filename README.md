@@ -1,9 +1,9 @@
-# ConRek
+# DioR
 
 You should organize them in the following format.
 
 ```
-ConRek
+DioR
     ├── Sgpt_file  
     ├── data  \\  Create and import according to the following command
     ├── paraphrase-MiniLM-L6-v2   \\ SBERT model
@@ -19,8 +19,8 @@ ConRek
 ## Install environment
 
 ```bash
-conda create -n ConRek python=3.9
-conda activate ConRek
+conda create -n DioR python=3.9
+conda activate DioR
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
