@@ -1,4 +1,14 @@
-# DioR
+# DioR: Adaptive Cognitive Detection and Contextual Retrieval Optimization for Dynamic Retrieval-Augmented Generation
+
+---
+
+🚀 **Exciting News**! 
+
+✨ We are **thrilled** to announce that our paper, titled **"DioR: Adaptive Cognitive Detection and Contextual Retrieval Optimization for Dynamic Retrieval-Augmented Generation"**, has been **accepted** for presentation at **ACL 2025 Main**! 🎉
+🎉
+---
+
+# Code
 
 You should organize them in the following format.
 
@@ -118,4 +128,16 @@ bash train.sh
 
 ```bash
 python ./src/evaluate1.py --dir path_to_folder(result/[result path and name]])
+```
+
+
+# Citation
+
+```
+@article{guo2025dior,
+  title={DioR: Adaptive Cognitive Detection and Contextual Retrieval Optimization for Dynamic Retrieval-Augmented Generation},
+  author={Guo, Hanghui and Zhu, Jia and Di, Shimin and Shi, Weijie and Chen, Zhangze and Xu, Jiajie},
+  journal={arXiv preprint arXiv:2504.10198},
+  year={2025}
+}
 ```
