@@ -84,6 +84,9 @@ python ./scr/fixed.py
 python ./Sgpt_file/sgpt_file.py
 ```
 
+## You can refer to
+You can refer to the experimental configuration details obtained from [this repo](https://github.com/oneal2000/DRAGIN/tree/main). 
+
 ### Download Dataset
 
 For 2WikiMultihopQA:
